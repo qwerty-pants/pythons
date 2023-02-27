@@ -1,8 +1,13 @@
 #assign values to the total variable and files variable
+
+#the total and files variables are both int/egers
+
+#the value of the total variable is considered an expression; a combination of numbers, symbols, or other values that produce a result when evaluated
+
 total = 2048 + 4357 + 97658 + 125 + 8
 files = 5
 
 average = total / files
 
-#use an explicit conversion to convert the answer (an integer) to a string so it can be combined with the other string we are printing.
+#use an explicit conversion to convert the answer, an integer to a string so it can be combined with the other string we are printing.
 print("The average size is: " + str(average))
