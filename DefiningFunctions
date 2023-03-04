@@ -1,0 +1,5 @@
+def NameOfFunction(ParametersOfFunction):
+    #Body of function starts here
+    #Instructions for what you want the function to do
+    #Body of the function must always be indented to the right of the definition
+    print("Welcome, " + ParametersOfFunction):
