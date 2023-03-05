@@ -1,0 +1,29 @@
+#Comparing Things
+#Everytime you compare things in Python, the result is a Boolean, True or False
+print(10>1)
+#10 is greater than 1, so the value true is printed onto the screen
+
+print("cat" == "dog")
+#this is the equality operator that determines if the string cat is equal to the string dog
+#the string cat is not equal to the string dog in this example
+
+print(1 != 2)
+#this is the not equals operator, the negated form of the equality operator
+#checks if 1 is not equal to 2
+
+#logical operators and, or, not
+
+#AND - to return true the and operator would need both expressions to be true at the same time
+
+print("Yellow" > "Cyan" and "Brown" > "Magenta")
+#alphabetical order is used when comparing strings
+#the first statement is true, and the second one isn't so since the first and second expressions are not the same this is false.
+
+#OR - the expression will be true if either expression is true or false when both expressions are false
+
+print(25 > 50 or 1 !=2)
+#25 is not bigger than 50 (false) but 1 is different than 2 (true)
+
+#NOT - the not operator inverts the value of the expression that's in front of it.
+
+print(not 42 == "Answer")
