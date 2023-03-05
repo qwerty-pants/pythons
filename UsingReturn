@@ -1,0 +1,12 @@
+#define area_triangle as a function.
+def area_triangle(base, height):
+    #tell the python interpreter that this is the return value of the area_triangle function
+    return base*height/2
+
+#calculate the area of each triangle separately and add them together
+area_a = area_triangle(5,4)
+area_b = area_triangle(7,3)
+sum = area_a + area_b
+
+#print the sum of both areas and convert the sum variable to a string
+print("The sum of both areas is: " + str(sum))
