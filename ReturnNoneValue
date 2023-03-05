@@ -1,0 +1,18 @@
+#define function greeting
+def greeting(name):
+    #Body of function starts here
+    #Instructions for what you want the function to do
+    #Body of the function must always be indented to the right of the definition
+    #print to the screen Welcome, and the name variable
+    print("Welcome, " + name)
+
+#set the value of result to the output of the greeting function
+result = greeting("Christine")
+
+#print the value of result to the screen
+print(result)
+#new line
+print("")
+print("The none result is printed because the result variable returns no value")
+print("")
+print("None is a special data type in Python used to indicate that things are empty or that they returned nothing")
