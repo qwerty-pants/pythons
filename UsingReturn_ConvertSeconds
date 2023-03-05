@@ -1,5 +1,6 @@
 #the purpose of the convert_seconds function is to convert seconds into hours, minutes, seconds
 
+#define convert_seconds as a function
 def convert_seconds(seconds):
     # // operator is called floor division
     # floor division takes only the integer value not the float value
@@ -20,4 +21,5 @@ def convert_seconds(seconds):
 hours, minutes, seconds = convert_seconds(5000)
 
 #display the values of hours, minutes and seconds on the screen
+#convert hours, minutes, seconds into strings so they can be displayed in a friendly way
 print(str(hours) + " hours " + str(minutes) + " minutes " + str(seconds) + " seconds ")
