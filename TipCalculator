@@ -1,14 +1,19 @@
 #two friends are eating dinner at a restaurant. The bill comes in the amount of 47.28 dollars. The friends decide to split the bill evenly between them, after adding 15% #tip for the service. Calculate the tip, the total amount to pay, and each friend's share, then output a message saying "Each person needs to pay: " followed by the #resulting number.
 
-bill = 47.28 # Assign "bill" variable with bill amount, 47.28
+# Assign "bill" variable with bill amount, 47.28
+bill = 47.28 
 
-tip = bill * .15 # Multiply by stated tip rate, 15%
+# Multiply by stated tip rate, 15%
+tip = bill * .15 
 
-total = bill + tip # Sum the "total" of the "bill" and "tip"
+# Sum the "total" of the "bill" and "tip"
+total = bill + tip 
 
-share = total / 2 # Divide "total" by number of friends dining
+# Divide "total" by number of friends dining
+share = total / 2 
 
-print("Each person needs to pay: " + str(share)) # Enter the required string and "share" 
+# Enter the required string and "share" 
+print("Each person needs to pay: " + str(share)) 
 
 # Hint: Remember to convert incompatible data types
 
