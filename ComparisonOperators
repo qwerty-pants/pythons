@@ -1,0 +1,31 @@
+# The == operator can check if two strings are equal to each other. 
+# If they are equal, the Python interpreter returns a True result.
+# I was writing this pretty high.
+"a string" == "a string"
+print("Check comments to see how this works!")
+print()
+print("Checking equality of....5 x 3 = " + str(5*3))
+print(15 == 5*3)
+print()
+
+# The inequality != operator can check if the two strings are NOT equal to each
+# other. If they are indeed not equal, then Python returns a True result.
+print("Checking if a rabbit is inequal to a frog....")
+print("rabbit" != "frog")
+print()
+
+# In this example, the variable event_city has been assigned the string 
+# value "Shanghai". This variable is compared to a static string, 
+# "Shanghai", using the != operator. As, the strings "Shanghai" and 
+# "Shanghai" are the same, the comparison of "Shanghai" != "Shanghai" 
+# is false. Accordingly, Python will return a False result.
+event_city = "Shanghai"
+print("Checking if Shanghai is not equal to Shanghai.... ")
+print(str(event_city != "Shanghai") + ", Since Shanghai and Shanghai are the same/equal.")
+print()
+
+# This last example illustrates the result of trying to compare two
+# items of different data types using the equality == operator. The
+# two items are not equal, so the comparison returns False.
+print("Checking if three and 3 are the same.... ")
+print(str("three" == 3) + ", three is a string and 3 is an integer")
