@@ -1,0 +1,15 @@
+# Example 1
+#The following model demonstrates the use of the and 
+#logical operator to join comparisons between two 
+#mathematical expressions.
+
+print((6*3 >= 18) and (9+9 <= 36/2))
+# Python processes this expression using the order of operations
+# (18 isgreaterthanorequalto 18)and(18 is less than or equal to 18)
+
+# this expression becomes True and True
+# 
+# Python checks if both sides of the expression are true
+# 
+# since both sides of the statement being evaluated are true 
+# the whole statement returns True 
