@@ -1,0 +1,16 @@
+#define the sharks and city variables
+sharks = ['hammerhead', 'great white', 'dogfish', 'frilled', 'bullhead', 'requiem']
+city = 'Not New York City'
+
+
+# True or True returns True
+print("Is 15/3 = 5 less than 2+4 = 6 ...? " + str(15/3 < 2+4) or str(0 >= 6-7))
+
+# False or True returns True
+print(sharks == "New York City" or city == "New York City")
+
+# True or False returns True
+print(16 <= 4**2 or 9**(0.5) != 3)
+
+# False or False returns False
+print("B_name" > "C_name" or "B_name" < "A_name")
