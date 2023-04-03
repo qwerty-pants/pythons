@@ -1,0 +1,18 @@
+# Example 2
+# Welcoming any readers 
+print("Hello...!")
+print()
+print("Today we will be using logical operators to compare strings.")
+print()
+print("We will be using the greater than and less than operators.")
+print()
+print("Checking if Nairobi is alphabetized before Milan...." + str("Nairobi" < "Milan") + ", N is after M.")
+print()
+print("Checking if Milan is alphabetized before Nairobi...." + str("Milan" < "Nairobi") + ", Milan is alphabetized before Nairobi.")
+print()
+print("Checking if the two statements above are equal..." + str("Nairobi" < "Milan" and "Nairobi" > "Hanoi") + ".")
+print()
+print("Check the code to see how this works...!")
+
+#the greater than and less than logical operators will be comparing 
+#the alphabetical order (technically the unicode values) of each string
