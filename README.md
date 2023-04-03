@@ -5,3 +5,4 @@ https://repl.it/languages/python3
 https://www.tutorialspoint.com/execute_python3_online.php
 https://rextester.com/l/python3_online_compiler
 https://trinket.io/python3
+https://www.digitalocean.com/community/tutorials/understanding-boolean-logic-in-python-3
